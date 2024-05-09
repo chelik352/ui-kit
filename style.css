@@ -44,6 +44,7 @@
     padding: 9px 14px 9px 14px;
     resize: none;
 }
+
 .text-area:focus{
     color: #101828;
 }
@@ -51,6 +52,7 @@
 .text-area[disabled]{
     background-color: #F9FAFB;
 }
+
 .button-pink{
     width: 106px;
     height: 36px;
@@ -66,17 +68,25 @@
     display: flex;
     padding-left: 30px;
     align-items: center;
+    box-shadow: 0px 1px 2px 0px #101828;
 }
+
 .button-pink:focus{
     background-color: #F4EBFF;
+    box-shadow: 0px 1px 2px 0px #101828;
 }
+
 .button-pink:active{
     box-shadow: 0px 0px 0px 4px #F4EBFF;
+    outline: #101828;
 }
+
 .button-pink[disabled]{
     background-color: #FCFAFF;
     color: #D6BBFB;
+    box-shadow: none;
 }
+
 .button{
     width: 106px;
     height: 36px;
@@ -92,41 +102,53 @@
     display: flex;
     padding-left: 30px;
     align-items: center;
+    box-shadow: 0px 1px 2px 0px #101828;
 }
-.button:focus{
+
+.button:hover{
     background-color: #F9FAFB;
 }
+
 .button:active{
     box-shadow: 0px 0px 0px 4px #F2F4F7;
 }
+
 .button[disabled]{
     background-color: white;
     color: #D0D5DD;
+    box-shadow: none;
 }
+
 .left{
     width: 44px;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid #D0D5DD;
     border-radius: 8px 0px 0px 8px;
     padding-top: 5px;
     justify-content: center;
+    background-color: white;
 }
+
 .buttons{
     display: flex;
     flex-direction: row;
     border-radius: 8px;
 }
+
 .plus{
     width: 44px;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid #D0D5DD;
     padding-top: 5px;
+    background-color: white;
 }
+
 .right{
    width: 44px;
    height: 40px;
-   border: 1px solid black;
+   border: 1px solid #D0D5DD;
    border-radius: 0px 8px 8px 0px;
-   padding-top: 5px
+   padding-top: 5px;
+   background-color: white;
     
 }
