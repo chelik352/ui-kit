@@ -68,12 +68,12 @@
     display: flex;
     padding-left: 30px;
     align-items: center;
-    box-shadow: 0px 1px 2px 0px #101828;
+    box-shadow: 0px 1px 2px 0px #101828 5%;
 }
 
-.button-pink:focus{
+.button-pink:hover{
     background-color: #F4EBFF;
-    box-shadow: 0px 1px 2px 0px #101828;
+    box-shadow: 0px 1px 2px 0px #101828 5%;
 }
 
 .button-pink:active{
@@ -102,7 +102,7 @@
     display: flex;
     padding-left: 30px;
     align-items: center;
-    box-shadow: 0px 1px 2px 0px #101828;
+    box-shadow: 0px 1px 2px 0px #101828 5%;
 }
 
 .button:hover{
